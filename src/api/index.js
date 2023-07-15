@@ -1,6 +1,6 @@
 import axios from 'axios' 
             // http://localhost:5000                        
-const API = axios.create({ baseURL: 'http://localhost:5000'});
+const API = axios.create({ baseURL: 'https://stackoverflowbackend.vercel.app/'});
 
 API.interceptors.request.use((req) => {
     if(localStorage.getItem('Profile')){
