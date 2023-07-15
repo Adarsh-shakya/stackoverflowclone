@@ -1,0 +1,75 @@
+.subscription-page {
+    text-align: center;
+    margin: 20px;
+    background-color: #f8f9f9;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    /* background-color: #fff;
+    border: 1px solid #ccc; */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fdf7e2;
+    
+    border:solid 1px #f1e5bc;
+    width: 300px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card.selected {
+    border-color: blue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.2);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.payment-button {
+  background-color: #007bff;
+}
+
+.selected-plan {
+  margin-top: 40px;
+}
+  
