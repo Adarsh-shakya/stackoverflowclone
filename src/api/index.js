@@ -1,5 +1,5 @@
 import axios from 'axios' 
-            // http://localhost:5000                        
+axios.defaults.withCredentials=true;                       
 const API = axios.create({ baseURL: 'https://stackoverflowbackend.vercel.app/'});
 
 API.interceptors.request.use((req) => {
