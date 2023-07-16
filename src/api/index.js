@@ -1,5 +1,6 @@
 import axios from 'axios' 
-axios.defaults.withCredentials=true;                      
+//axios.defaults.withCredentials=true; 
+
 const API = axios.create({ baseURL: 'https://stackoverflowbackend-qoqn.vercel.app/'});
 
 API.interceptors.request.use((req) => {
