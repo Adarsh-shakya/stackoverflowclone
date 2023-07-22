@@ -9,7 +9,7 @@ import Tags from "./Componemts/Pages/Tags/Tags";
 import Users from "./Componemts/Users/Users";
 import UserProfile from "./Componemts/Pages/UserProfile/UserProfile";
 import Homee from "./Componemts/Pages/Subtion/Homee";
-import SocialMedia from './Componemts/Pages/SocialMedia/SocialMedia';
+
 
 const AllRoutes=()=>{
     return(
@@ -24,7 +24,7 @@ const AllRoutes=()=>{
             <Route path='/Users' element={<Users/>}/>
             <Route path='/Users/:id' element={<UserProfile/>}/>
             <Route path='/Subtion' element={<Homee/>}/>
-            <Route path='/Socialmedia' element={<SocialMedia/>} />
+            
 
         </Routes>
         
