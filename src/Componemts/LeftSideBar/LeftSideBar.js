@@ -22,9 +22,7 @@ const LeftSideBar=()=>
                     <NavLink to='/users'  className='side-nav-links' activeClassName='active'>
                         <p>Users</p>
                     </NavLink>
-                    <NavLink to='/Socialmedia'  className='side-nav-links' activeClassName='active'>
-                        <p>SocialMedia</p>
-                    </NavLink>
+                   
                 </div>
             </nav>
         </div>
